@@ -1,3 +1,8 @@
+---
+title: Lambda Expression Notes
+categories: Java
+tags: [Java, Java8, Stream, Lambda, Functional]
+---
 # Lambda Expression
 
 ## Lambda

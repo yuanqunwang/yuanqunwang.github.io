@@ -1,3 +1,8 @@
+---
+title: Java Introduction Notes
+categories: Java
+tags: [Java]
+---
 * A platform is the hardware or software environment in which a program runs. We've already mentioned some of the most popular platforms like Microsoft Windows, Linux, Solaris OS, and Mac OS. Most platforms can be described as a combination of the operating system and underlying hardware. The Java platform differs from most other platforms in that it's a software-only platform that runs on top of other hardware-based platforms.
 * The Java platform has two components:
 	* The Java Virtual Machine

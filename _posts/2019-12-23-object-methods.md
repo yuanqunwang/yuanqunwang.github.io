@@ -1,3 +1,8 @@
+---
+title: Java Object's Methods
+categories: Java
+tags: [Java, HashMap]
+---
 `System.arrayCopy(Object src, int srcPos, Object dest, int destPost, int length)`，对于数组元素为基本数据类型时，做deep copy，数组元素为引用类型时，做shallow copy。
 
 ## `Object` 对象方法

@@ -1,3 +1,8 @@
+---
+title: SpringBoot Notes
+categories: SpringBoot
+tags: [Java, Spring, SpringBoot]
+---
 # spring boot notes
 
 基于spring framework 的web应用开发需要大量基于xml或注解的配置，在开发web应用需要将精力放在配置上。为了减轻配置压力，将精力集中在应用的开发上，spring team在spring framework 的基础上开发了spring boot 框架。基于spring boot的开发的web应用的原理与spring framework相同，只是将大量的配置工作由spring boot承担。

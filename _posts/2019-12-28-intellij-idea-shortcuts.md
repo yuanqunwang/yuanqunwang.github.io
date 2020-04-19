@@ -1,3 +1,8 @@
+---
+title: IntelliJ IDEA ShortCuts
+categories: Tools
+tags: [IntelliJ, Tools, Tips]
+---
 # IDEA
 
 * `alt + f12` : terminal

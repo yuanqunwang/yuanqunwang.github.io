@@ -1,3 +1,8 @@
+---
+title: Useful ssh commands
+categories: ssh
+tags: [ssh, Tools, Tips]
+---
 # ssh
 
 ```shell
@@ -19,6 +24,7 @@ $ ssh -L 9001:host1:host1_port root@host
 #远程端口转发
 $ ssh -R 9001:pi_host:22 root@host
 ```
+
 
 
 

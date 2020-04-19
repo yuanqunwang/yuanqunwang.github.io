@@ -1,3 +1,8 @@
+---
+title: Useful Svn Commands
+categories: Tools
+tags: [svn, Tools, Tips]
+---
 # svn
 
 ##  revert working copy to previous version

@@ -1,3 +1,8 @@
+---
+title: Dynamic Proxy Notes
+categories: Java
+tags: [Java, AOP, Transaction, CgLib]
+---
 # 动态代理
 
 动态代理是相对于编译期或类加载期生成的代理而言的，动态代理是指在程序运行期间生成的代理。

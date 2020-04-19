@@ -1,3 +1,8 @@
+---
+title: Useful gdb commands
+categories: Tools
+tags: [gdb, Tools, Tips]
+---
 ## start execution
 
 * start debug: `gdb executeble_name`

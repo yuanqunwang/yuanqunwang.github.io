@@ -1,3 +1,8 @@
+---
+title: Java Generics Notes
+categories: Java
+tags: [Java, Generics, Functional, Stream]
+---
 # Java Generics
 
 Parametric polymorphism是函数式语言的特性，Java以parameterized classes 和 polymorphic methods的形式实现了Parametric polymorphism（genericity or generics）。

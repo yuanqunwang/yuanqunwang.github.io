@@ -1,3 +1,8 @@
+---
+title: Java Collection Notes
+categories: Java
+tags: [Java, Collection, ArrayList, HashMap]
+---
 # Collections
 
 ## Java集合架构

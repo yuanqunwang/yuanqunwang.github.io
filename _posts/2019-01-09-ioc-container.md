@@ -1,3 +1,8 @@
+---
+title: Spring IoC Container Notes
+categories: Spring
+tags: [Java, Spring, IoC]
+---
 # IoC容器
 
 ## 一般概念
