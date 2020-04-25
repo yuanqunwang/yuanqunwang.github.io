@@ -1,12 +1,9 @@
 ---
-title: Java Introduction Notes
+title: Misc Java Facts
 categories: Java
-tags: [Java]
+tags: [Java, Java SE, Java EE, Java Me, Java FX]
 ---
 * A platform is the hardware or software environment in which a program runs. We've already mentioned some of the most popular platforms like Microsoft Windows, Linux, Solaris OS, and Mac OS. Most platforms can be described as a combination of the operating system and underlying hardware. The Java platform differs from most other platforms in that it's a software-only platform that runs on top of other hardware-based platforms.
-* The Java platform has two components:
-	* The Java Virtual Machine
-	* The Java Application Programming Interface (API)
 * Java is being continually extended to provide language features and libraries that elegantly handle problems that are difficult in traditional programming languages, such as concurrency, database access, network programming, and distributed computing. Java allows client-side programming via the applet and with Java Web Start.
 * JavaFX is a set of graphics and media packages that enables developers to design, create, test, debug, and deploy rich client applications that operate consistently across diverse platforms.
 * all objects are inherited from the single root class Object
@@ -14,7 +11,21 @@ tags: [Java]
 * When you say something is static, it means that particular field or method is not tied to any particular object instance of that class. So even if you’ve never created an object of that class you can call a static method or access a static field. With ordinary, non-static fields and methods, you must create an object and use that object to access the field or method, since non-static fields and methods must know the particular object they are working with.Now even if you make two StaticTest objects, there will still be only one piece of storage for StaticTest.i. Both objects will share the same i.An important use of static for methods is to allow you to call that method without creating an object. This is essential, as you will see, in defining the main( ) method that is the entry point for running an application.
 * The default values are only what Java guarantees when the variable is used as a member of a class. This ensures that member variables of primitive types will always be initialized (something C++ doesn’t do), reducing a source of bugs.
 
+## Java 平台（ Platform )
+
+Java 技术包含 Java 编程语言和平台两个方面的内涵。Java 编程语言是指具有特定语法的面向对象的高级语言，Java 平台是供 Java 程序运行的环境。
+
+Java 平台则包含 Java 虚拟机（ JVM ）和 API 两方面。JVM 是一个用于运行 Java 应用的程序。API 是一系列软件组件的集合，用于开发新的 Java 应用或组件。每个 Java 平台均提供了对应的 JVM 和 API，在某个平台上开发的 Java 应用，可以运行在兼容的 Java 平台上运行，比如，在 Java SE 平台上开发的 Java 应用，可以运行在 Java SE 和 Java EE 平台上。
+
+Java 平台分为以下几种：
+
+* Java SE ( Java Standard Edition )，提供了 Java 编程语言的核心功能。
+* Java EE ( Java Enterprise Edition)，构建于 Java SE 之上，为开发大型、可扩展、稳定的网络应用提供了额外的 API 和运行环境。
+* Java ME ( Java Micro Edition )，在小型设备（ 比如移动手机 ）上运行的版本，JVM 较 Java SE 版本规格小，且 API 是 Java SE 的子集。通常是 Java EE 服务的客户端。
+* Java FX ( Java )，专为开发高效 GUI 程序的版本，通常是 Java EE 服务的客户端。
+
 ## The `static` keyword
+
 1. not use `static`:The storage is allocated and methods become available until create an object using `new` of a class.
 2. using `static` keyword ensured two things:
   1). have only a single piece of storage for a particular field.

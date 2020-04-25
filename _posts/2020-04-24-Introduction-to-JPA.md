@@ -5,7 +5,13 @@ tage: [JPA, Database, Framework]
 
 ## JPA 是什么
 
-JPA（ Java Persistence API ）是一系列用于将对象持久化到数据库中的类和方法的集合。许多企业提供了 JPA 的实现，比如：Hibernate，Eclipselink，Toplink， Spring Data JPA 等。
+JPA（ Java Persistence API ）是一个 Java 应用程序接口规范 （ specification ），描述在Java标准版平台（ Java SE ）和 Java 企业版平台（ Java EE） 应用中 **关系型数据（ relational data ）** 的管理。参考实现（ reference implementation）为 EclipseLink。其他常见实现有 Hibernate，Toplink， Spring Data JPA 等。
+
+持久化在此有三个层面的意思：
+
+* API 本身，定义在 javax.persistence 包中。
+* Java 持久化查询语言（JPQL，Java Persistence Query Language ）。
+* 对象/关系 元数据。
 
 ## JPA 的类体系结构
 
