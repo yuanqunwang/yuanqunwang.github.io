@@ -133,6 +133,31 @@ tags: [git]
   $ git rm --cached .idea
   ```
 
-  
+## 本地仓库
+
+* 提交暂存区中的修改到本地仓库
+
+  ```shell
+  $ git commit -m 'commit from index area'
+  ```
+
+* 直接将工作区中的修改提交到本地仓库
+
+  ```shell
+  $ git commit -a -m 'commit from workspace'
+  ```
+
+* 修改上次提交
+
+  ```shell
+  $ git commit --amend
+  ```
 
   
+
+
+
+
+
+
+
