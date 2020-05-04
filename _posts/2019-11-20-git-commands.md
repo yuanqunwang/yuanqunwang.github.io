@@ -42,6 +42,7 @@ tags: [git, Tools, Tips]
   ```shell
   $ git config --global user.name "my name"
   $ git config --global user.email "my email address"
+  $ git config -e [--global] #通过编辑器配置
   ```
 
 ## 创建、提交
