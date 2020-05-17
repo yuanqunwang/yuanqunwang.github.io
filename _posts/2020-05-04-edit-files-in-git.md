@@ -63,6 +63,9 @@ tags: [git]
   
     ```shell
     $ git checkout master~2 hello.c
+    ```
+  ```
+  
   ```
 
 ## 暂存区
